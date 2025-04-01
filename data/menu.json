@@ -1,0 +1,289 @@
+[
+    {
+      "name": "Classic Cheeseburger",
+      "category": "Entree",
+      "price": 5.99,
+      "ingredients": "Beef patty, cheese, lettuce, tomato, pickles, bun, condiments",
+      "nutrition": {
+        "calories": 550,
+        "protein_g": 25,
+        "fat_g": 30,
+        "carbs_g": 45,
+        "sodium_mg": 800
+      }
+    },
+    {
+      "name": "Bacon Cheeseburger",
+      "category": "Entree",
+      "price": 6.99,
+      "ingredients": "Beef patty, bacon, cheese, lettuce, tomato, onions, bun, condiments",
+      "nutrition": {
+        "calories": 650,
+        "protein_g": 30,
+        "fat_g": 40,
+        "carbs_g": 50,
+        "sodium_mg": 900
+      }
+    },
+    {
+      "name": "Double Deluxe Burger",
+      "category": "Entree",
+      "price": 7.99,
+      "ingredients": "Two beef patties, double cheese, lettuce, tomato, pickles, onions, special sauce, bun",
+      "nutrition": {
+        "calories": 800,
+        "protein_g": 35,
+        "fat_g": 45,
+        "carbs_g": 60,
+        "sodium_mg": 1100
+      }
+    },
+    {
+      "name": "Spicy Chicken Sandwich",
+      "category": "Entree",
+      "price": 5.49,
+      "ingredients": "Spicy chicken fillet, lettuce, tomato, mayo, bun",
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 28,
+        "fat_g": 25,
+        "carbs_g": 45,
+        "sodium_mg": 850
+      }
+    },
+    {
+      "name": "Grilled Chicken Sandwich",
+      "category": "Entree",
+      "price": 5.99,
+      "ingredients": "Grilled chicken breast, lettuce, tomato, light mayo, whole grain bun",
+      "nutrition": {
+        "calories": 450,
+        "protein_g": 32,
+        "fat_g": 15,
+        "carbs_g": 40,
+        "sodium_mg": 700
+      }
+    },
+    {
+      "name": "Veggie Burger",
+      "category": "Entree",
+      "price": 5.49,
+      "ingredients": "Veggie patty, lettuce, tomato, avocado, whole wheat bun",
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 20,
+        "fat_g": 18,
+        "carbs_g": 50,
+        "sodium_mg": 650
+      }
+    },
+    {
+      "name": "Fish Sandwich",
+      "category": "Entree",
+      "price": 5.99,
+      "ingredients": "Fried fish fillet, tartar sauce, lettuce, bun",
+      "nutrition": {
+        "calories": 520,
+        "protein_g": 24,
+        "fat_g": 28,
+        "carbs_g": 47,
+        "sodium_mg": 780
+      }
+    },
+    {
+      "name": "Small French Fries",
+      "category": "Side",
+      "price": 1.99,
+      "ingredients": "Potatoes, oil, salt",
+      "nutrition": {
+        "calories": 220,
+        "protein_g": 3,
+        "fat_g": 10,
+        "carbs_g": 30,
+        "sodium_mg": 300
+      }
+    },
+    {
+      "name": "Medium French Fries",
+      "category": "Side",
+      "price": 2.49,
+      "ingredients": "Potatoes, oil, salt",
+      "nutrition": {
+        "calories": 320,
+        "protein_g": 4,
+        "fat_g": 17,
+        "carbs_g": 37,
+        "sodium_mg": 400
+      }
+    },
+    {
+      "name": "Large French Fries",
+      "category": "Side",
+      "price": 2.99,
+      "ingredients": "Potatoes, oil, salt",
+      "nutrition": {
+        "calories": 420,
+        "protein_g": 5,
+        "fat_g": 22,
+        "carbs_g": 45,
+        "sodium_mg": 500
+      }
+    },
+    {
+      "name": "Onion Rings",
+      "category": "Side",
+      "price": 2.99,
+      "ingredients": "Onions, batter, seasoning",
+      "nutrition": {
+        "calories": 350,
+        "protein_g": 4,
+        "fat_g": 20,
+        "carbs_g": 40,
+        "sodium_mg": 450
+      }
+    },
+    {
+      "name": "Mozzarella Sticks",
+      "category": "Side",
+      "price": 3.49,
+      "ingredients": "Mozzarella cheese, breading, marinara sauce",
+      "nutrition": {
+        "calories": 400,
+        "protein_g": 14,
+        "fat_g": 25,
+        "carbs_g": 30,
+        "sodium_mg": 600
+      }
+    },
+    {
+      "name": "Side Salad",
+      "category": "Side",
+      "price": 2.99,
+      "ingredients": "Mixed greens, tomatoes, cucumbers, carrots, light dressing",
+      "nutrition": {
+        "calories": 150,
+        "protein_g": 4,
+        "fat_g": 7,
+        "carbs_g": 15,
+        "sodium_mg": 200
+      }
+    },
+    {
+      "name": "Soda (Medium)",
+      "category": "Drink",
+      "price": 1.99,
+      "ingredients": "Carbonated water, high fructose corn syrup, flavoring",
+      "nutrition": {
+        "calories": 210,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 56,
+        "sodium_mg": 25
+      }
+    },
+    {
+      "name": "Iced Tea (Unsweetened)",
+      "category": "Drink",
+      "price": 1.79,
+      "ingredients": "Brewed tea, ice, lemon (optional)",
+      "nutrition": {
+        "calories": 90,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 22,
+        "sodium_mg": 15
+      }
+    },
+    {
+      "name": "Lemonade",
+      "category": "Drink",
+      "price": 2.49,
+      "ingredients": "Water, lemon juice, sugar",
+      "nutrition": {
+        "calories": 180,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 45,
+        "sodium_mg": 20
+      }
+    },
+    {
+      "name": "Bottled Water",
+      "category": "Drink",
+      "price": 1.49,
+      "ingredients": "Purified water",
+      "nutrition": {
+        "calories": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbs_g": 0,
+        "sodium_mg": 0
+      }
+    },
+    {
+      "name": "Chocolate Milkshake",
+      "category": "Dessert",
+      "price": 3.49,
+      "ingredients": "Milk, ice cream, chocolate syrup",
+      "nutrition": {
+        "calories": 500,
+        "protein_g": 10,
+        "fat_g": 20,
+        "carbs_g": 65,
+        "sodium_mg": 200
+      }
+    },
+    {
+      "name": "Vanilla Milkshake",
+      "category": "Dessert",
+      "price": 3.49,
+      "ingredients": "Milk, ice cream, vanilla extract",
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 9,
+        "fat_g": 18,
+        "carbs_g": 60,
+        "sodium_mg": 190
+      }
+    },
+    {
+      "name": "Strawberry Milkshake",
+      "category": "Dessert",
+      "price": 3.49,
+      "ingredients": "Milk, ice cream, strawberry syrup",
+      "nutrition": {
+        "calories": 490,
+        "protein_g": 9,
+        "fat_g": 19,
+        "carbs_g": 62,
+        "sodium_mg": 195
+      }
+    },
+    {
+      "name": "Ice Cream Cone",
+      "category": "Dessert",
+      "price": 1.99,
+      "ingredients": "Ice cream, cone",
+      "nutrition": {
+        "calories": 250,
+        "protein_g": 5,
+        "fat_g": 10,
+        "carbs_g": 35,
+        "sodium_mg": 80
+      }
+    },
+    {
+      "name": "Apple Pie",
+      "category": "Dessert",
+      "price": 2.99,
+      "ingredients": "Apple filling, pastry crust, cinnamon",
+      "nutrition": {
+        "calories": 300,
+        "protein_g": 3,
+        "fat_g": 12,
+        "carbs_g": 45,
+        "sodium_mg": 150
+      }
+    }
+  ]
+  
