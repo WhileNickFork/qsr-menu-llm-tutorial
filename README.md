@@ -50,18 +50,16 @@ The tutorials are presented as a series of Jupyter notebooks, designed to be fol
     * **Key Concepts:** LangGraph `StateGraph`, `TypedDict` for state, `add_messages` reducer, defining nodes (custom functions, `ToolNode`), conditional edges (`add_conditional_edges`), custom tool definition (`@tool` decorator) with error handling (`db.run_no_throw`), using `ToolNode.with_fallbacks` for robust tool execution, `SubmitFinalAnswer` Pydantic model for structured final output, graph visualization.
     * **Takeaway:** Shows how LangGraph enables fine-grained control, state management, and explicit error handling loops for more complex agent workflows, particularly beneficial when needing intermediate validation steps like SQL checking.
 
-3.  **`3-LangGraph-Vision.ipynb` - Competitor Menu Analysis (Image + SQL) - *Coming Soon***
-    * **Status:** *This notebook is currently under development and will be available soon.*
+3.  **`3-LangGraph-Vision.ipynb` - Competitor Menu Analysis (Image + SQL)**
     * **Goal:** Extend the LangGraph system to handle multimodal input (competitor menu images) alongside SQL querying for comprehensive competitor analysis.
-    * **Planned Approach:** Implement a multi-agent system orchestrated by a **Supervisor Agent**.
-        * The **Supervisor** will analyze the user request and route it to either the `SQL Agent` (similar to Notebook 2) or a new `Competitor Analysis Agent`.
-        * The **Competitor Analysis Agent** will:
-            * Use a new tool (`analyze_competitor_menu_image`) leveraging a multimodal LLM (like `gemma3:27b` via Ollama) to extract items and prices from the provided image into a structured format (e.g., JSON).
-            * Reuse the SQL tools (`db_query_tool`, etc.) to fetch relevant comparison data (e.g., prices of similar items) from the *internal* QSR menu database.
-            * Use another new tool (`comparison_tool`) with a text LLM to synthesize the extracted competitor data and the internal data into a final comparison summary.
-            * Utilize the `SubmitFinalAnswer` tool to return the formatted summary.
-    * **Key Concepts (Planned):** Supervisor pattern in LangGraph, multi-agent workflows, multimodal LLM integration within LangGraph (image encoding, prompting), defining and using multimodal tools, state management across agents/sub-graphs.
-    * **Takeaway (Planned):** Demonstrates how LangGraph can manage complex, branching workflows involving different types of agents (text-based SQL, multimodal analysis) and data sources (SQL DB, images).
+    * **Planned Approach:** Implements a multi-agent system orchestrated by a **Supervisor Agent**.
+        * The **Supervisor** analyses the user request and routes it to either the `SQL Agent` (similar to Notebook 2) or a new `Competitor Analysis Agent`.
+        * The **Competitor Analysis Agent**:
+            * Uses a new tool (`analyze_competitor_menu_image`) leveraging a multimodal LLM (like `gemma3:27b` via Ollama) to extract items and prices from the provided image into a structured format (e.g., JSON).
+            * Reuses the SQL tools (`db_query_tool`, etc.) to fetch relevant comparison data (e.g., prices of similar items) from the *internal* QSR menu database.
+            * Utilizes the `SubmitFinalAnswer` tool to return the formatted summary.
+    * **Key Concepts:** Supervisor pattern in LangGraph, multi-agent workflows, multimodal LLM integration within LangGraph (image encoding, prompting), defining and using multimodal tools, state management across agents/sub-graphs.
+    * **Takeaway:** Demonstrates how LangGraph can manage complex, branching workflows involving different types of agents (text-based SQL, multimodal analysis) and data sources (SQL DB, images).
 
 ## Setup
 
